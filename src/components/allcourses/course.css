@@ -1,0 +1,84 @@
+/* courses.css */
+
+.coursesCard {
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .course-selection,
+  .additional-info-form {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .course-selection select,
+  .additional-info-form input,
+  .additional-info-form select,
+  .additional-info-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .additional-info-form label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: bold;
+  }
+  
+  .additional-info-form input[type="file"] {
+    margin-top: 10px;
+  }
+  
+  .items {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .price {
+    margin-top: 15px;
+  }
+  
+  .outline-btn {
+    background-color: #1eb2a6;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* Additional styling for improved organization */
+  .additional-info-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .additional-info-form select,
+  .additional-info-form textarea {
+    width: calc(100% - 30px);
+  }
+  
+  /* Add more styles as needed */
+  

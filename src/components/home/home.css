@@ -1,0 +1,23 @@
+/* Your existing styles for Hero, AboutCard, HAbout, Testimonial, Hblog, and Hprice components */
+
+/* Additional styles for responsive layout */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .mobile-layout {
+    order: 1; /* Adjust order for mobile layout */
+  }
+  
+  .desktop-layout {
+    order: 2; /* Adjust order for desktop layout */
+  }
+  
+  /* Media query for mobile layout */
+  @media (max-width: 767px) {
+    .container {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+  }
+  

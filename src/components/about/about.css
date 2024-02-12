@@ -1,0 +1,105 @@
+/* Add these styles to your existing CSS */
+
+.aboutHome {
+  height: auto;
+}
+
+.aboutHome #heading {
+  text-align: left;
+  padding: 0;
+}
+
+.aboutHome .left img {
+  width: 100%;
+  height: auto; /* Adjusted to maintain aspect ratio */
+  object-fit: cover;
+}
+
+.aboutHome .right {
+  padding: 50px; /* Adjusted padding */
+}
+
+.aboutHome .items {
+  margin-top: 30px; /* Adjusted margin */
+}
+
+.aboutHome .item {
+  background-color: #fff;
+  margin-top: 20px; /* Adjusted margin */
+  padding: 15px; /* Adjusted padding */
+  transition: 0.5s;
+}
+
+.aboutHome .img {
+  max-width: 100%; /* Adjusted to ensure responsiveness */
+  height: auto; /* Adjusted to maintain aspect ratio */
+}
+
+.aboutHome img {
+  width: 50px; /* Adjusted size */
+  height: 50px; /* Adjusted size */
+}
+
+.aboutHome .item h2 {
+  font-size: 18px; /* Adjusted font size */
+  margin-bottom: 10px; /* Adjusted margin */
+}
+
+.aboutHome .item p {
+  color: #999999;
+}
+
+.aboutHome .item:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+}
+
+.aboutHome .item:hover p {
+  color: #fff;
+}
+
+/* ----------awrapper------------ */
+
+.awrapper {
+  background-image: url("../../../public/images/awrapper.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  color: #fff;
+}
+
+.awrapper .box {
+  padding: 50px 0; /* Adjusted padding */
+}
+
+.awrapper img {
+  margin-right: 20px; /* Adjusted margin */
+}
+
+.awrapper h1 {
+  font-size: 40px; /* Adjusted font size */
+}
+
+.awrapper h3 {
+  font-size: 16px; /* Adjusted font size */
+  font-weight: 500;
+}
+
+/* ----------awrapper------------ */
+
+@media screen and (max-width: 768px) {
+  .aboutHome .container {
+    flex-direction: column; /* Adjusted flex direction for better responsiveness */
+  }
+
+  .aboutHome .row {
+    width: 100%;
+  }
+
+  .awrapper {
+    height: 50vh;
+  }
+}
